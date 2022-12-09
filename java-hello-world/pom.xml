@@ -3,7 +3,7 @@
   <groupId>org.kjayaraman</groupId>
   <artifactId>java-hello-world</artifactId>
   <packaging>jar</packaging>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>java-hello-world</name>
   <url>http://maven.apache.org</url>
   <properties>
@@ -14,7 +14,7 @@
         <connection>scm:git:${project.scm.url}</connection>
         <developerConnection>scm:git:${project.scm.url}</developerConnection>
 		<url>https://github.com/kjayaraman-fiserv/mvn-hello-world.git</url>
-		<tag>java-hello-world-1.0.0</tag>
+		<tag>HEAD</tag>
 	</scm>
   <dependencies>
     <dependency>
