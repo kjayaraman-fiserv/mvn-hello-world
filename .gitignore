@@ -1,2 +1,5 @@
+**/target/*
 jf*
 settings*
+ci-setup-workspace*
+release.properties
