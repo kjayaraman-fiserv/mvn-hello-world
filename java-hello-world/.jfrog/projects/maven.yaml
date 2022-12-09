@@ -1,0 +1,10 @@
+version: 1
+type: maven
+resolver:
+  serverId: kjayaraman
+  snapshotRepo: mvn-libs-snapshot
+  releaseRepo: mvn-libs-release
+deployer:
+  serverId: kjayaraman
+  snapshotRepo: mvn-libs-snapshot
+  releaseRepo: mvn-libs-release
