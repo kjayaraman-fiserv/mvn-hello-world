@@ -1,8 +1,8 @@
 
-name: 'JFrog CI Integration'
+name: 'java-hello-world'
 on: [push]
 jobs:
- jfrog-ci-integration:
+ build-code:
    runs-on: ubuntu-latest
    env:
      JF_ARTIFACTORY_1: ${{ secrets.JF_ARTIFACTORY_SECRET_1 }}
